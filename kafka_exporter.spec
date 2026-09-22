@@ -54,7 +54,7 @@ exit 0
 %{_unitdir}/%{name}.service
 
 %changelog
-* Tue Sep 22 2026
+* Tue Sep 22 2026 Ivan Garcia
 - Bump version to 1.10.0
 * Mon Apr 13 2026 Ivan Garcia <igarcia@cloudox.org> - 1.9.0
 - Initial packaging for the 1.9.0 branch
