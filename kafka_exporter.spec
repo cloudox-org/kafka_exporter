@@ -3,7 +3,7 @@
 %global group prometheus
 
 Name: kafka_exporter
-Version: 1.9.0
+Version: 1.10.0
 Release: 1%{?dist}
 Summary: Kafka exporter for Prometheus.
 License: ASL 2.0
@@ -54,5 +54,7 @@ exit 0
 %{_unitdir}/%{name}.service
 
 %changelog
+* Tue Sep 22 2026
+- Bump version to 1.10.0
 * Mon Apr 13 2026 Ivan Garcia <igarcia@cloudox.org> - 1.9.0
 - Initial packaging for the 1.9.0 branch
